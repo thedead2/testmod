@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "de.thedead2.testmod.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "testmod.refmap.json",
+  "mixins": [
+    "MixinMinecraftServer"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
